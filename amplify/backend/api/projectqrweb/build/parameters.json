@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "projectqrweb",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-projectqrweb-dev-110443-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/ae3e47880679d751e8203ce4728116d010bbd05b"
+}
