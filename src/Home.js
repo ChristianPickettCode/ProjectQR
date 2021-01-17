@@ -11,12 +11,17 @@ const Home = () => {
                 margin:"auto", 
                 display:"flex", 
                 flexFlow:"wrap", 
-                padding:"2%",
-                backgroundColor:"white",
                 justifyContent:"center" }}>
             
             { [1,2, 3, 4, 5, 6, 7,8,12, 13, 14, 15, 16, 17, 23, 25, 63, 65].map(i => (
-                <div style={{ margin: "10px"}} key={i}>
+                <div 
+                    style={{ 
+                        margin: "10px", 
+                        padding: "15px 15px 10px 15px", 
+                        backgroundColor:"white", 
+                        borderRadius:"10px",
+                        }} 
+                    key={i}>
                     <Link to={`/code/${i}`}>
                         <QRCode size={128} value="http://facebook.github.io/react/" /> 
                     </Link>

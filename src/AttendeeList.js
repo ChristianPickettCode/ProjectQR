@@ -87,6 +87,42 @@ const AttendeeList = () => {
           age: 32,
           address: 'London No. 2 Lake Park',
         },
+        {
+            key: '5',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
+          {
+            key: '6',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
+          {
+            key: '7',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
+          {
+            key: '7',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
+          {
+            key: '7',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
+          {
+            key: '7',
+            name: 'Jim Red',
+            age: 32,
+            address: 'London No. 2 Lake Park',
+          },
       ];
       
       function onChange(pagination, filters, sorter, extra) {
@@ -94,7 +130,10 @@ const AttendeeList = () => {
       }
 
       return (
-        <Table columns={columns} dataSource={data} onChange={onChange} />
+          <div style={{ width: "95%", margin:"auto"}}>
+              <Table pagination={false} columns={columns} dataSource={data} sticky onChange={onChange} />
+          </div>
+        
       )
 }
 

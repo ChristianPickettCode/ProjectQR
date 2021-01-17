@@ -32,7 +32,7 @@ function App() {
         <Content 
           style={{
             height:"20px",
-            width:"90%", 
+            width:"95%", 
             margin:"auto",
             overflow:"scroll"
             }}>
